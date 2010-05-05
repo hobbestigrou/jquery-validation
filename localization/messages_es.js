@@ -14,8 +14,6 @@ jQuery.extend(jQuery.validator.messages, {
 	creditcard: "Por favor, escribe un número de tarjeta válido.",
 	equalTo: "Por favor, escribe el mismo valor de nuevo.",
 	accept: "Por favor, escribe un valor con una extensión aceptada.",
-	ipv4: "Por favor, escribe una dirección IP v4 válida.",
-	ipv6: "Por favor, escribe una dirección IP v6 válida.",
 	maxlength: jQuery.validator.format("Por favor, no escribas más de {0} caracteres."),
 	minlength: jQuery.validator.format("Por favor, no escribas menos de {0} caracteres."),
 	rangelength: jQuery.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
