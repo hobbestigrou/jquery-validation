@@ -14,6 +14,8 @@ jQuery.extend(jQuery.validator.messages, {
         creditcard: "Veuillez entrer un numéro de carte de crédit valide.",
         equalTo: "Veuillez entrer une nouvelle fois la même valeur.",
         accept: "Veuillez entrer une valeur avec une extension valide.",
+        ipv4: "Veuillez entrer une adresse IP v4 valide.",
+        ipv6: "Veuillez entrer une adresse IP v6 valide.",
         maxlength: jQuery.validator.format("Veuillez ne pas entrer plus de {0} caractères."),
         minlength: jQuery.validator.format("Veuillez entrer au moins {0} caractères."),
         rangelength: jQuery.validator.format("Veuillez entrer entre {0} et {1} caractères."),
